@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Каталог товаров - Mishka</title>
+</head>
+<body>
+
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logo.svg" width="86" height="35" alt="Логотип магазина игрушек Mishka">
+    </a>
+    <nav class="main-nav">
+      <button class="main__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            Поиск по сайту
+          </li>
+          <li class="user-list__item">
+            <a href="#">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-inner">
+    <h1 class="page-inner__title">Каталог товаров</h1>
+    <section class="catalog">
+      <div class="catalog__wrapper">
+        <h2 class="visually-hidden">Список товаров</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item product">
+            <a class="product__link" href="#">
+              <img class="product__image" src="img/rabbit.jpg" width="260" height="195" alt="Игрушка зайчик-попрыгайчик">
+              <h3 class="product__name">Зайчик-попрыгайчик</h3>
+            </a>
+            <p class="product__descriprion">Рост 30 см, вес 200 г</p>
+            <p class="product__price">1200 руб.</p>
+            <button class="product__buy" type="button"></button>
+          </li>
+          <li class="catalog__item product">
+            <a class="product__link" href="#">
+              <img class="product__image" src="img/basket.jpg" width="260" height="195" alt="Корзинка для белья">
+              <h3 class="product__name">Корзинка для белья</h3>
+            </a>
+            <p class="product__descriprion">Диаметр 15 см, высота 10 см</p>
+            <p class="product__price">690 руб.</p>
+            <button class="product__buy" type="button"></button>
+          </li>
+          <li class="catalog__item product">
+            <a class="product__link" href="#">
+              <img class="product__image" src="img/big-basket.jpg" width="260" height="195" alt="Большая корзинка для игрушек">
+              <h3 class="product__name">Большая корзинка для игрушек</h3>
+            </a>
+            <p class="product__descriprion">Диаметр 30 см, высота 30 см</p>
+            <p class="product__price">1500 руб.</p>
+            <button class="product__buy" type="button"></button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about-production">
+      <div class="about-production__wrapper">
+        <h2 class="about-production__title">Процесс производства</h2>
+        <video class="about-production__video" width="" height="" poster="img/video.jpg">
+          <source src="#" type="video/mp4; codecs="avc1.42E01E, mp4a.40.2"">
+        </video>
+        <p class="about-production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+      <button class="about-production__button button" type="button">Сделать заказ</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item"><a class="social__link social__link--instagram" href="#">Мы в Инстаграме</a></li>
+          <li class="social__item"><a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a></li>
+          <li class="social__item"><a class="social__link social__link--twitter" href="#">Мы в Твиттере</a></li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright_link" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/logo-htmlacademy" width="27" height="34" alt="Логотип HTML Academy"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
